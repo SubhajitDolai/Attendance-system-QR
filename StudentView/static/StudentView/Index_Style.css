@@ -6,8 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #00072d;
-  color: #fff;
+  background-color: #121212; /* Dark black background */
+  color: #e0e0e0; /* Light grey text for readability */
   margin: 0;
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 .header {
-  background-color: #0a2472;
-  color: #fff;
+  background-color: #1a1a1a; /* Dark grey */
+  color: #e0e0e0;
   padding: 20px 0;
   text-align: center;
 }
@@ -32,10 +32,10 @@ body {
 }
 
 .attendance-section {
-  background-color: #001c55;
+  background-color: #1c1c1c; /* Slightly lighter dark grey */
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Softer shadow */
   text-align: center;
   margin-top: 20px;
 }
@@ -43,7 +43,7 @@ body {
 .section-title {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #e0e0e0; /* Light grey for contrast */
 }
 
 .student-list {
@@ -60,20 +60,20 @@ body {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  background-color: #00072d;
-  border: 1px solid #ddd;
+  background-color: #121212; /* Darker black */
+  border: 1px solid #333; /* Dark grey border */
   border-radius: 5px;
   padding: 10px 20px;
   transition: background-color 0.3s ease;
 }
 
 .student-label:hover {
-  background-color: darkslateblue;
+  background-color: #2b2b2b; /* Slightly lighter on hover */
 }
 
 .submit-button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #333333; /* Dark grey for buttons */
+  color: #e0e0e0;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -84,15 +84,13 @@ body {
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #444444; /* Lighter grey on hover */
 }
 
 .footer {
-  background-color: #0a2472;
-  color: #fff;
+  background-color: #1a1a1a; /* Dark grey footer */
+  color: #e0e0e0;
   text-align: center;
   padding: 10px 0;
-  /* position: absolute; */
-  bottom: 0;
   width: 100%;
 }

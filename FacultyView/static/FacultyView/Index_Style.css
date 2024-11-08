@@ -8,13 +8,13 @@
 /* Define some basic styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #00072d;
-  color: #fff;
+  background-color: #121212; /* Dark black background */
+  color: #e0e0e0; /* Light grey text */
 }
 
 header {
-  background-color: #0a2472;
-  color: #fff;
+  background-color: #1c1c1c; /* Dark grey */
+  color: #e0e0e0;
   padding: 20px;
   text-align: center;
 }
@@ -32,21 +32,22 @@ main {
 }
 
 .attendance-container {
-  background-color: #001c55;
+  background-color: #1a1a1a; /* Dark grey */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   text-align: center;
   width: 30em;
   height: fit-content;
 }
+
 .marked-list {
   display: flex;
   flex-direction: column;
-  background-color: #001c55;
+  background-color: #1a1a1a; /* Dark grey */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   text-align: center;
   width: 30em;
   height: 80%;
@@ -66,7 +67,7 @@ main {
 
 .hint {
   font-size: 16px;
-  color: #fff;
+  color: #b0b0b0; /* Slightly lighter grey */
 }
 
 .present-list {
@@ -75,29 +76,29 @@ main {
 
 /* Add custom scrollbar styles to the form */
 .attendance-form {
-  max-height: 300px; /* Set a maximum height for the form */
-  overflow-y: auto; /* Add vertical scroll when the content exceeds the height */
-  scrollbar-width: thin; /* Create a thin scrollbar (on supported browsers) */
-  scrollbar-color: #000000 transparent; /* Set the scrollbar color */
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #333333 #1a1a1a; /* Dark shades for scrollbar */
 }
 
 /* Customize the scrollbar thumb and track */
 .attendance-form::-webkit-scrollbar {
-  width: 8px; /* Set the width of the scrollbar */
+  width: 8px;
 }
 
 .attendance-form::-webkit-scrollbar-thumb {
-  background-color: #007bff; /* Set the thumb color */
+  background-color: #333333; /* Dark scrollbar thumb */
 }
 
 .attendance-form::-webkit-scrollbar-track {
-  background-color: #ddd; /* Set the track color */
+  background-color: #1a1a1a; /* Dark track */
 }
 
 .student-list {
   list-style: none;
   padding: 0;
-  margin: 0; /* Remove any margin for the list */
+  margin: 0;
 }
 
 .student {
@@ -109,42 +110,37 @@ main {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  background-color: #00072d;
-  border: 1px solid #ddd;
+  background-color: #1c1c1c; /* Dark grey */
+  border: 1px solid #333333; /* Slightly lighter border */
   border-radius: 5px;
-  padding: 10px 8px; /* Reduce padding to make the delete button smaller */
+  padding: 10px 8px;
   transition: background-color 0.3s ease;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
-/* Adjust the size of the delete button icon */
 .delete-button {
   background-color: transparent;
   border: none;
-  padding: 0; /* Remove padding */
-  font-size: 14px; /* Adjust the font size to control the button size */
-  color: #2275f1;
+  padding: 0;
+  font-size: 14px;
+  color: #ff6666; /* Soft red for delete icon */
   cursor: pointer;
 }
 
 .delete-button:hover {
-  color: red;
+  color: #ff3333; /* Brighter red on hover */
 }
 
 footer {
-  background-color: #0a2472;
-  color: #fff;
+  background-color: #1c1c1c; /* Dark grey */
+  color: #e0e0e0;
   text-align: center;
   padding: 10px;
 }
 
 /* Styles for the submit button */
 .submit-button {
-  background-color: #28a745; /* Green for Submit */
-  color: #fff;
+  background-color: #006600; /* Dark green */
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -155,17 +151,17 @@ footer {
 }
 
 .submit-button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #009900; /* Brighter green on hover */
 }
 
 .submit-button:active {
-  background-color: #1e7e34; /* Even darker on click */
+  background-color: #004d00; /* Darker green on click */
 }
 
 /* Styles for the add button */
 .add-button {
-  background-color: #007bff; /* Blue for Add */
-  color: #fff;
+  background-color: #3333ff; /* Dark blue */
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -176,11 +172,11 @@ footer {
 }
 
 .add-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #6666ff; /* Lighter blue on hover */
 }
 
 .add-button:active {
-  background-color: #004494; /* Even darker blue on click */
+  background-color: #0000b3; /* Darker blue on click */
 }
 
 @media (max-width: 500px) {
