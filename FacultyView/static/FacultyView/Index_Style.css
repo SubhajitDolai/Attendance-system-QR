@@ -63,6 +63,7 @@ main {
   height: 280px;
   margin: 20px auto;
   display: block;
+  border-radius: 10px;
 }
 
 .hint {
@@ -139,8 +140,10 @@ footer {
 
 /* Styles for the submit button */
 .submit-button {
-  background-color: #006600; /* Dark green */
-  color: #ffffff;
+  /* background-color: #006600; Dark green
+  color: #ffffff; */
+  background-color: #2c2c2c; /* Dark grey */
+  color: #e0e0e0; /* Light grey text */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -151,17 +154,21 @@ footer {
 }
 
 .submit-button:hover {
-  background-color: #009900; /* Brighter green on hover */
+  /* background-color: #009900; Brighter green on hover */
+  background-color: #3a3a3a; /* Slightly lighter grey */
 }
 
 .submit-button:active {
-  background-color: #004d00; /* Darker green on click */
+  /* background-color: #004d00; Darker green on click */
+  background-color: #1e1e1e; /* Darker grey on click */
 }
 
 /* Styles for the add button */
 .add-button {
-  background-color: #3333ff; /* Dark blue */
-  color: #ffffff;
+  /* background-color: #3333ff; Dark blue
+  color: #ffffff; */
+  background-color: #3b3b3b; /* Medium dark grey */
+  color: #e0e0e0; /* Light grey text */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -172,11 +179,13 @@ footer {
 }
 
 .add-button:hover {
-  background-color: #6666ff; /* Lighter blue on hover */
+  /* background-color: #6666ff; Lighter blue on hover */
+  background-color: #505050; /* Brighter grey on hover */
 }
 
 .add-button:active {
-  background-color: #0000b3; /* Darker blue on click */
+  /* background-color: #0000b3; Darker blue on click */
+  background-color: #2a2a2a; /* Darker grey on click */
 }
 
 @media (max-width: 500px) {
